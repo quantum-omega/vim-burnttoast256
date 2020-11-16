@@ -20,7 +20,7 @@
 
 if &t_Co != 256 && ! has("gui_running")
   echomsg ""
-  echomsg "err: please use GUI or a 256-color terminal (so that t_Co=256 could be set)"
+  echomsg "err: please use GUI or a 256-color terminal (so that t_Co=256 can be set)"
   echomsg ""
   finish
 endif
@@ -34,13 +34,6 @@ if exists("syntax_on")
 endif
 
 let colors_name = "burnttoast256"
-
-" now set it up to change the status line based on mode
-"if version >= 700
-"  au InsertEnter * hi StatusLine term=reverse ctermbg=5 gui=undercurl guisp=Magenta
-"  au InsertLeave * hi StatusLine term=reverse ctermfg=0 ctermbg=2 gui=bold,reverse
-"endif
-
 
 
 " The real part ----------------------------------------------------------------
@@ -59,7 +52,7 @@ hi LineNr       ctermfg=8   guifg=#7f7f7f ctermbg=233 guibg=#121212
 hi NonText      ctermfg=237 guifg=#3a3a3a
 hi Pmenu        ctermfg=0   guifg=#000000 ctermbg=104 guibg=#8787d7
 hi PmenuSbar                              ctermbg=243 guibg=#767676
-hi PmenuSel     ctermfg=0   guifg=#000000 ctermbg=223 guibg=#ffdfaf
+hi PmenuSel     ctermfg=15  guifg=#ffffff ctermbg=0   guibg=#000000
 hi PmenuThumb                             ctermbg=252 guibg=#d0d0d0
 hi Search       ctermfg=0   guifg=#000000 ctermbg=149 guibg=#afd75f
 hi SignColumn   ctermfg=248 guifg=#a8a8a8
@@ -76,8 +69,8 @@ hi WildMenu     ctermfg=0   guifg=#000000 ctermbg=184 guibg=#d7d700 cterm=bold g
 "" Syntax highlighting
 hi Comment              ctermfg=36  guifg=#00af87
 hi Constant             ctermfg=222 guifg=#ffd787
-hi Error                ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#cd0000
-hi ErrorMsg             ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#cd0000
+hi Error                ctermfg=0   guifg=#000000 ctermbg=1   guibg=#cd0000
+hi ErrorMsg             ctermfg=0   guifg=#000000 ctermbg=1   guibg=#cd0000
 hi Function             ctermfg=134 guifg=#af5fd7
 hi Identifier           ctermfg=134 guifg=#af5fd7                           cterm=none gui=none
 hi Ignore               ctermfg=238 guifg=#444444
