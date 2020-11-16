@@ -1,7 +1,7 @@
 " Vim color file
 "
 " Name:       burnttoast256.vim
-" Version:    1.2
+" Version:    1.3
 " Maintainer:  Francois Labelle <quantum.omega@gmail.com>
 " Based on:   xoria256.vim 1.1 by Dmitriy Y. Zotikov (xio) <xio@ungrund.org>
 "
@@ -57,9 +57,9 @@ hi Folded       ctermfg=255 guifg=#eeeeee ctermbg=60  guibg=#5f5f87
 hi IncSearch    ctermfg=0   guifg=#000000 ctermbg=223 guibg=#ffdfaf cterm=none gui=none
 hi LineNr       ctermfg=8   guifg=#7f7f7f ctermbg=233 guibg=#121212
 hi NonText      ctermfg=237 guifg=#3a3a3a
-hi Pmenu        ctermfg=0   guifg=#000000 ctermbg=246 guibg=#949494
+hi Pmenu        ctermfg=0   guifg=#000000 ctermbg=104 guibg=#8787d7
 hi PmenuSbar                              ctermbg=243 guibg=#767676
-hi PmenuSel     ctermfg=0   guifg=#000000 ctermbg=243 guibg=#767676
+hi PmenuSel     ctermfg=0   guifg=#000000 ctermbg=223 guibg=#ffdfaf
 hi PmenuThumb                             ctermbg=252 guibg=#d0d0d0
 hi Search       ctermfg=0   guifg=#000000 ctermbg=149 guibg=#afd75f
 hi SignColumn   ctermfg=248 guifg=#a8a8a8
@@ -72,24 +72,30 @@ hi VertSplit    ctermfg=237 guifg=#3a3a3a ctermbg=237 guibg=#3a3a3a cterm=none g
 hi Visual       ctermfg=24  guifg=#005f87 ctermbg=153 guibg=#afd7ff
 hi VIsualNOS    ctermfg=24  guifg=#005f87 ctermbg=153 guibg=#afd7ff cterm=none gui=none
 hi WildMenu     ctermfg=0   guifg=#000000 ctermbg=184 guibg=#d7d700 cterm=bold gui=bold
-hi LineNr       ctermfg=8   guifg=#7f7f7f ctermbg=233 guibg=#121212
 
 "" Syntax highlighting
-hi Comment      ctermfg=36  guifg=#00af87
-hi Constant     ctermfg=227 guifg=#ffff5f
-hi Error        ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#cd0000
-hi ErrorMsg     ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#cd0000
-hi Identifier   ctermfg=134 guifg=#af5fd7                           cterm=none gui=none
-hi Ignore       ctermfg=238 guifg=#444444
-hi MatchParen   ctermfg=188 guifg=#d7d7d7 ctermbg=68  guibg=#5f87d7 cterm=bold gui=bold
-hi Number       ctermfg=180 guifg=#d7af87
-hi PreProc      ctermfg=150 guifg=#afd787
-hi Special      ctermfg=174 guifg=#d78787
-hi Statement    ctermfg=75  guifg=#5fafff                           cterm=none gui=none
-hi String       ctermfg=217 guifg=#ffafaf
-hi Todo         ctermfg=0   guifg=#000000 ctermbg=36  guibg=#00af87
-hi Type         ctermfg=146 guifg=#afafd7                           cterm=none gui=none
-hi Underlined   ctermfg=39  guifg=#00afff                           cterm=underline gui=underline
+hi Comment              ctermfg=36  guifg=#00af87
+hi Constant             ctermfg=222 guifg=#ffd787
+hi Error                ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#cd0000
+hi ErrorMsg             ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#cd0000
+hi Function             ctermfg=134 guifg=#af5fd7
+hi Identifier           ctermfg=134 guifg=#af5fd7                           cterm=none gui=none
+hi Ignore               ctermfg=238 guifg=#444444
+hi MatchParen           ctermfg=188 guifg=#d7d7d7 ctermbg=68  guibg=#5f87d7 cterm=bold gui=bold
+hi Number               ctermfg=180 guifg=#d7af87
+hi PreProc              ctermfg=150 guifg=#afd787
+hi Special              ctermfg=132 guifg=#d78787
+hi Statement            ctermfg=75  guifg=#5fafff                           cterm=none gui=none
+hi String               ctermfg=217 guifg=#ffafaf
+hi Todo                 ctermfg=0   guifg=#000000 ctermbg=36  guibg=#00af87
+hi Type                 ctermfg=146 guifg=#afafd7                           cterm=none gui=none
+hi Underlined           ctermfg=39  guifg=#00afff                           cterm=underline gui=underline
+
+"" Python highlighting
+hi pythonFunctionCall   ctermfg=210 guifg=#ff8787
+"hi pythonStrFormatting    Special
+"hi pythonStrFormat        Special
+"hi pythonStrTemplate      Special
 
 "" Special
 """ .diff
@@ -103,10 +109,6 @@ hi diffText     ctermfg=bg  guifg=bg      ctermbg=174 guibg=#d78787 cterm=none g
 
 "" To highlight lines that are too long
 hi OverLength                             ctermbg=130 guibg=#af5f00
-
-"" Omni-completion menu
-hi Pmenu        ctermfg=0   guifg=#000000 ctermbg=104 guibg=#8787d7
-hi PmenuSel     ctermfg=0   guifg=#000000 ctermbg=223 guibg=#ffdfaf
 
 "" Spelling and compiling errors
 hi SpellBad                               ctermbg=52  guibg=#5f0000
