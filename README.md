@@ -14,10 +14,13 @@ To install, just put the file `colors/burntoast256.vim` in your `~/.vim/colors` 
 
 ### Vundle
 After `call vundle#begin()`, place:
+
     Plugin 'quantum-omega/vim-burnttoast256', { 'name': 'burnttoast256' }
 
 After `call vundle#end()`, place:
+
     colorscheme burnttoast256
 
 In Vim, run:
+
     :PluginInstall
