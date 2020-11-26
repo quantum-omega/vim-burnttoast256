@@ -43,16 +43,16 @@ hi Normal       ctermfg=252 guifg=#d0d0d0 ctermbg=16  guibg=#000000 cterm=none g
 hi ColorColumn                            ctermbg=233 guibg=#121212
 hi CursorColumn                           ctermbg=238 guibg=#444444
 hi Cursor                                 ctermbg=214 guibg=#ffaf00
-hi CursorLine                             ctermbg=235 guibg=#262626 cterm=none gui=none
+hi CursorLine                                                       cterm=none gui=none
 hi CursorLineNr ctermfg=7   guifg=#e5e5e5 ctermbg=233 guibg=#121212 cterm=bold gui=bold
 hi FoldColumn   ctermfg=248 guifg=#a8a8a8 ctermbg=bg  guibg=bg
 hi Folded       ctermfg=255 guifg=#eeeeee ctermbg=60  guibg=#5f5f87
 hi IncSearch    ctermfg=0   guifg=#000000 ctermbg=223 guibg=#ffdfaf cterm=none gui=none
 hi LineNr       ctermfg=8   guifg=#7f7f7f ctermbg=233 guibg=#121212
 hi NonText      ctermfg=237 guifg=#3a3a3a
-hi Pmenu        ctermfg=0   guifg=#000000 ctermbg=104 guibg=#8787d7
+hi Pmenu        ctermfg=15  guifg=#ffffff ctermbg=234 guibg=#1c1c1c
 hi PmenuSbar                              ctermbg=243 guibg=#767676
-hi PmenuSel     ctermfg=15  guifg=#ffffff ctermbg=0   guibg=#000000
+hi PmenuSel     ctermfg=146 guifg=#afafd7 ctermbg=232 guibg=#080808 cterm=bold gui=bold
 hi PmenuThumb                             ctermbg=252 guibg=#d0d0d0
 hi Search       ctermfg=0   guifg=#000000 ctermbg=149 guibg=#afd75f
 hi SignColumn   ctermfg=248 guifg=#a8a8a8
@@ -69,8 +69,8 @@ hi WildMenu     ctermfg=0   guifg=#000000 ctermbg=184 guibg=#d7d700 cterm=bold g
 "" Syntax highlighting
 hi Comment              ctermfg=36  guifg=#00af87
 hi Constant             ctermfg=222 guifg=#ffd787
-hi Error                ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#cd0000
-hi ErrorMsg             ctermfg=15  guifg=#ffffff ctermbg=1   guibg=#cd0000
+hi Error                ctermfg=9   guifg=#ff0000 ctermbg=52  guibg=#5f0000 cterm=none gui=none
+hi ErrorMsg             ctermfg=9   guifg=#ff0000 ctermbg=52  guibg=#5f0000
 hi Function             ctermfg=134 guifg=#af5fd7
 hi Identifier           ctermfg=134 guifg=#af5fd7                           cterm=none gui=none
 hi Ignore               ctermfg=238 guifg=#444444
@@ -95,10 +95,10 @@ hi pythonFunctionCall   ctermfg=210 guifg=#ff8787
 hi diffAdded    ctermfg=150 guifg=#afd787
 hi diffRemoved  ctermfg=174 guifg=#d78787
 """ vimdiff
-hi diffAdd      ctermfg=bg  guifg=bg      ctermbg=151 guibg=#afd7af
-hi diffDelete   ctermfg=bg  guifg=bg      ctermbg=246 guibg=#949494 cterm=none gui=none
-hi diffChange   ctermfg=bg  guifg=bg      ctermbg=181 guibg=#d7afaf
-hi diffText     ctermfg=bg  guifg=bg      ctermbg=174 guibg=#d78787 cterm=none gui=none
+hi DiffAdd                                ctermbg=22  guibg=#005f00
+hi DiffDelete   ctermfg=9   guifg=#ff0000 ctermbg=52  guibg=#5f0000 cterm=none gui=none
+hi DiffChange                             ctermbg=235 guibg=#262626 cterm=none gui=none
+hi DiffText                               ctermbg=17  guibg=#00005f cterm=none gui=none
 
 "" To highlight lines that are too long
 hi OverLength                             ctermbg=130 guibg=#af5f00
