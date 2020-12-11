@@ -1,7 +1,7 @@
 " Vim color file
 "
 " Name:       burnttoast256.vim
-" Version:    1.3
+" Version:    1.4
 " Maintainer:  Francois Labelle <quantum.omega@gmail.com>
 " Based on:   xoria256.vim 1.1 by Dmitriy Y. Zotikov (xio) <xio@ungrund.org>
 "
@@ -44,11 +44,11 @@ hi ColorColumn                            ctermbg=233 guibg=#121212
 hi CursorColumn                           ctermbg=238 guibg=#444444
 hi Cursor                                 ctermbg=214 guibg=#ffaf00
 hi CursorLine                                                       cterm=none gui=none
-hi CursorLineNr ctermfg=7   guifg=#e5e5e5 ctermbg=233 guibg=#121212 cterm=bold gui=bold
+hi CursorLineNr ctermfg=7   guifg=#c0c0c0 ctermbg=233 guibg=#121212 cterm=bold gui=bold
 hi FoldColumn   ctermfg=248 guifg=#a8a8a8 ctermbg=bg  guibg=bg
 hi Folded       ctermfg=255 guifg=#eeeeee ctermbg=60  guibg=#5f5f87
-hi IncSearch    ctermfg=0   guifg=#000000 ctermbg=223 guibg=#ffdfaf cterm=none gui=none
-hi LineNr       ctermfg=8   guifg=#7f7f7f ctermbg=233 guibg=#121212
+hi IncSearch    ctermfg=0   guifg=#000000 ctermbg=223 guibg=#ffd7af cterm=none gui=none
+hi LineNr       ctermfg=8   guifg=#808080 ctermbg=233 guibg=#121212
 hi NonText      ctermfg=237 guifg=#3a3a3a
 hi Pmenu        ctermfg=15  guifg=#ffffff ctermbg=234 guibg=#1c1c1c
 hi PmenuSbar                              ctermbg=243 guibg=#767676
@@ -77,7 +77,7 @@ hi Ignore               ctermfg=238 guifg=#444444
 hi MatchParen           ctermfg=188 guifg=#d7d7d7 ctermbg=68  guibg=#5f87d7 cterm=bold gui=bold
 hi Number               ctermfg=180 guifg=#d7af87
 hi PreProc              ctermfg=150 guifg=#afd787
-hi Special              ctermfg=132 guifg=#d78787
+hi Special              ctermfg=132 guifg=#af5f87
 hi Statement            ctermfg=75  guifg=#5fafff                           cterm=none gui=none
 hi String               ctermfg=217 guifg=#ffafaf
 hi Todo                 ctermfg=0   guifg=#000000 ctermbg=36  guibg=#00af87
