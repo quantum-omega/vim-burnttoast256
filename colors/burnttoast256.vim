@@ -84,6 +84,11 @@ hi Todo                 ctermfg=0   guifg=#000000 ctermbg=36  guibg=#00af87
 hi Type                 ctermfg=146 guifg=#afafd7                           cterm=none gui=none
 hi Underlined           ctermfg=39  guifg=#00afff                           cterm=underline gui=underline
 
+highlight ALEWarning     ctermfg=0   guifg=#000000 ctermbg=222 guibg=#ffd787
+highlight ALEErrorSign   ctermfg=9   guifg=#ff0000 ctermbg=52  guibg=#5f0000
+highlight ALEWarningSign ctermfg=0   guifg=#000000 ctermbg=222 guibg=#ffd787
+
+
 "" Python highlighting
 hi pythonFunctionCall   ctermfg=210 guifg=#ff8787
 "hi pythonStrFormatting    Special
