@@ -10,6 +10,7 @@ The color scheme should be exactly the same in gvim but hasn't been tested for r
 ## Installation
 ### Manual
 To install, just put the file `colors/burntoast256.vim` in your `~/.vim/colors` folder and add to your .vimrc:
+
     colorscheme burnttoast256
 
 ### Vundle
